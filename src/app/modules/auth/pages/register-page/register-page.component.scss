@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    background: blue;
+    .part1, .part2{
+        width: 50%;
+        height: 100vh;
+    }
+    .part1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px  0px 0px 30px ;
+        background: white;
+    }
+
+
+}
